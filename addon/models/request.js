@@ -30,4 +30,6 @@ export default DS.Model.extend({
 
 	utm_content : DS.attr('string'),
 
+	domain : DS.attr('string'),
+
 });
