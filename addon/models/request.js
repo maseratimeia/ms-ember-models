@@ -32,4 +32,6 @@ export default DS.Model.extend({
 
 	domain : DS.attr('string'),
 
+	campaign: DS.belongsTo('campaign', { async: true }),
+
 });
