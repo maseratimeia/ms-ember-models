@@ -6,6 +6,12 @@ export default DS.Model.extend({
 
     title_ar: DS.attr('string'),
 
+	//
+
+	complete_copy_en: DS.attr('string'),
+
+	complete_copy_ar: DS.attr('string'),
+
     //
 
     subtitle_en: DS.attr('string'),
@@ -17,12 +23,6 @@ export default DS.Model.extend({
 	salutations_en: DS.attr('string'),
 
 	salutations_ar: DS.attr('string'),
-
-	//
-
-	importer_en: DS.attr('string'),
-
-	importer_ar: DS.attr('string'),
 
     //
 
