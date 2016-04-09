@@ -11,6 +11,7 @@ export default DS.Model.extend({
 	logo_svg : DS.attr('string'),
 	tagline_svg_en : DS.attr('string'),
 	tagline_svg_ar : DS.attr('string'),
+	tagline_svg_fr : DS.attr('string'),
 	hasTagline : DS.attr('boolean', { defaultValue: false } ),
 
 });
