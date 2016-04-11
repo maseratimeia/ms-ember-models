@@ -1,5 +1,5 @@
 import DS from 'ember-data';
-import Timestamps from 'sq-ember-authentication/mixins/timestamps';
+import Timestamps from 'ms-ember-authentication/mixins/timestamps';
 import Ember from 'ember';
 
 export default DS.Model.extend(Timestamps, {
