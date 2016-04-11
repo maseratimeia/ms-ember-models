@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'mt-ember-models'
+  name: 'ms-ember-models'
 };
