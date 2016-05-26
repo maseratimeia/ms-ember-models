@@ -33,7 +33,7 @@ export default DS.Model.extend({
 	content_footer_ar: DS.attr('string'),
 
 	//
-	
+
 	floodlight_1_id: DS.attr('string'),
 
 	floodlight_1_cat: DS.attr('string'),
@@ -41,5 +41,13 @@ export default DS.Model.extend({
 	floodlight_2_id: DS.attr('string'),
 
 	floodlight_2_cat: DS.attr('string'),
+
+	floodlight_3_id: DS.attr('string'),
+
+	floodlight_3_cat: DS.attr('string'),
+
+	floodlight_4_id: DS.attr('string'),
+
+	floodlight_4_cat: DS.attr('string'),
 
 });
