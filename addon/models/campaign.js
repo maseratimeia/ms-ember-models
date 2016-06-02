@@ -50,4 +50,8 @@ export default DS.Model.extend({
 
 	floodlight_4_cat: DS.attr('string'),
 
+	facebook_1_id: DS.attr('string'),
+
+	facebook_1_action: DS.attr('string'),
+
 });
