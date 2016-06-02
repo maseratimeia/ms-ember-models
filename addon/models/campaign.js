@@ -8,6 +8,8 @@ export default DS.Model.extend({
 
 	default_owner: DS.belongsTo('user', { async: true }),
 
+	location: DS.belongsTo('location', { async: true }),
+
 	//
 
 	content_photo_en: DS.attr('string'),
