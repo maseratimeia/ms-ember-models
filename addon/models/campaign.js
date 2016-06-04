@@ -10,6 +10,8 @@ export default DS.Model.extend({
 
 	location: DS.belongsTo('location', { async: true }),
 
+	locations: DS.hasMany('location', { async: true }),
+
 	//
 
 	content_photo_en: DS.attr('string'),
