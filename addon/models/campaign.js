@@ -66,4 +66,6 @@ export default DS.Model.extend({
 
 	facebook_1_action: DS.attr('string'),
 
+	//
+
 });
