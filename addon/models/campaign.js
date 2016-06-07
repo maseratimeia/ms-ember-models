@@ -42,17 +42,25 @@ export default DS.Model.extend({
 
 	floodlight_1_cat: DS.attr('string'),
 
+	floodlight_1_type: DS.attr('string'),
+
 	floodlight_2_id: DS.attr('string'),
 
 	floodlight_2_cat: DS.attr('string'),
+
+	floodlight_2_type: DS.attr('string'),
 
 	floodlight_3_id: DS.attr('string'),
 
 	floodlight_3_cat: DS.attr('string'),
 
+	floodlight_3_type: DS.attr('string'),
+
 	floodlight_4_id: DS.attr('string'),
 
 	floodlight_4_cat: DS.attr('string'),
+
+	floodlight_4_type: DS.attr('string'),
 
 	facebook_1_id: DS.attr('string'),
 
