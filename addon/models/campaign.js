@@ -38,6 +38,18 @@ export default DS.Model.extend({
 
 	//
 
+	content_photo_fr: DS.attr('string'),
+
+	content_title_fr: DS.attr('string'),
+
+	content_subtitle_fr: DS.attr('string'),
+
+	content_description_fr: DS.attr('string'),
+
+	content_footer_fr: DS.attr('string'),
+
+	//
+
 	floodlight_1_id: DS.attr('string'),
 
 	floodlight_1_cat: DS.attr('string'),
