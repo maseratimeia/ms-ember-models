@@ -74,6 +74,8 @@ export default DS.Model.extend({
 
 	floodlight_4_type: DS.attr('string'),
 
+	remarketing_id: DS.attr('string'),
+
 	facebook_1_id: DS.attr('string'),
 
 	facebook_1_action: DS.attr('string'),
