@@ -72,6 +72,8 @@ export default DS.Model.extend({
 
 	xls_leads: DS.attr('string'),
 
+	guest: DS.attr('boolean'),
+
 	valid: DS.attr('boolean'),
 
 });
