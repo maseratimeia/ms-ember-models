@@ -48,10 +48,6 @@ export default DS.Model.extend({
 
 	content_footer_fr: DS.attr('string'),
 
-	//
-
-	showCard: DS.attr('boolean'),
-
 	///
 
 	floodlight_1_id: DS.attr('string'),
