@@ -50,6 +50,10 @@ export default DS.Model.extend({
 
 	//
 
+	showCard: DS.attr('boolean'),
+
+	///
+
 	floodlight_1_id: DS.attr('string'),
 
 	floodlight_1_cat: DS.attr('string'),
