@@ -42,6 +42,10 @@ export default DS.Model.extend({
 
     cities_ar: DS.attr('string'),
 
+//
+
+    logoEvent: DS.attr('string'),
+
     //
 
 	url: DS.attr('string'),
@@ -50,7 +54,9 @@ export default DS.Model.extend({
 
 	//
 
-	photo_1: DS.attr('string'),
+		logoEvent: DS.attr('string'),
+
+		photo_1: DS.attr('string'),
 
     photo_2: DS.attr('string'),
 
