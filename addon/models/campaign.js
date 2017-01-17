@@ -80,9 +80,13 @@ export default DS.Model.extend({
 
 	facebook_1_action: DS.attr('string'),
 
-	js_tag: DS.attr('string'),
+	js_tag_ty: DS.attr('string'),
 
-	image_tag: DS.attr('string'),
+	image_tag_ty: DS.attr('string'),
+
+	js_tag_landing: DS.attr('string'),
+
+	image_tag_landing: DS.attr('string'),
 
 	//
 
