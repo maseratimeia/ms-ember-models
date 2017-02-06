@@ -9,7 +9,7 @@ export default DS.Model.extend({
 	phone: DS.attr('string'),
 	email: DS.attr('string'),
 	google_maps: DS.attr('string'),
-	webaddress: DS.attr('string'),
+	webaddress: DS.attr('string'), //
 
 	primary_notification_email: DS.attr('string'),
 	secondary_notification_email: DS.attr('string'),
