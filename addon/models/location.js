@@ -19,6 +19,7 @@ export default DS.Model.extend({
 	analytics: DS.attr('string'),
 
 	country_code: DS.attr('string'),
+	country_code_models: DS.attr('string'),
 
 	default_model: DS.belongsTo('model', { async: true }),
 
